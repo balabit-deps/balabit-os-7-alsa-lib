@@ -1,3 +1,14 @@
+alsa-lib (1.1.3-5ubuntu0.6) bionic; urgency=medium
+
+  * d/p/0021-conf-USB-add-Cmedia-Audio-to-USB-Audio.pcm.iec958_de.patch
+    https://github.com/alsa-project/alsa-lib/pull/122
+    Add "Cmedia Audio" to USB-Audio.pcm.iec958_device, otherwise users
+    will see 2 IEC985 devices from UI, but there is no those physical
+    devices in fact. After adding this patch, those 2 IEC985 devices will
+    not show up in the UI. (LP: #1921452)
+
+ -- Hui Wang <hui.wang@canonical.com>  Tue, 22 Jun 2021 10:01:54 +0000
+
 alsa-lib (1.1.3-5ubuntu0.5) bionic; urgency=medium
 
   * d/p/0020-add-bios-version-for-looking-for-ucm.patch

@@ -18,3 +18,4 @@
 0018-add-ucm-for-sof-driver-LenovoX1-7th-and-Dell-cml.patch
 0019-adjust-input-volume-and-a-new-LENOVO-ucm.patch
 0020-add-bios-version-for-looking-for-ucm.patch
+0021-conf-USB-add-Cmedia-Audio-to-USB-Audio.pcm.iec958_de.patch
